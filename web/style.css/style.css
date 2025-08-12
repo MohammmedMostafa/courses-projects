@@ -1,0 +1,9 @@
+body{
+    background-color: oldlace;
+}
+h1{
+    font-style: italic;
+    text-align: center;
+    border: 2px solid rgb(209, 14, 14) ;
+    border-radius: 25px;
+}
