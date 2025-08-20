@@ -1,0 +1,45 @@
+/* menu items section */
+.highlight{
+color: orange;
+font-size: 50px;
+font-weight: bold;
+}
+
+h1{
+text-align: center;
+margin-bottom: 40px;
+font-size: 32px;
+letter-spacing: 2px; 
+font-family: Arial,  sans-serif;
+}
+/* images section */
+
+.menu{
+width: 90%;
+text-align: center;
+margin: auto;
+} 
+
+.item {
+float: left;
+width: 23%;            
+margin: 1%;
+text-align: center;
+margin-top: 10px;
+}
+
+img {
+width: 200px;
+height: 200px;
+border-radius: 50%;     
+border: 5px solid orange;
+}
+
+h2 {
+margin-top: 15px;
+font-size: 16px;
+font-weight: bolder;
+text-transform: uppercase;
+}
+
+  
