@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  gap: 40px;
+}
+
+/* Left Content */
+.content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.content h1 span {
+  color: #111827;
+}
+
+.content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Button */
+.btn {
+  background-color: #7c3aed;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(253, 55, 205);
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.stat-box {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f3ff;
+  border-radius: 20px;
+}
+
+.stat-box h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.stat-box p {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #555;
+}
+
+/* Right Image */
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image img {
+  max-width: 350px;
+  border-radius: 20px;
+}
